@@ -307,3 +307,10 @@ ul {
 .design__box-text {
     margin-bottom: 15px;
 }
+
+.design__img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover ;
+    margin: 0 auto;
+}
