@@ -353,6 +353,19 @@ ul {
     .concept__text {
         font-size: 16px;
     }
+
+    .premier__inner{
+        display: block;
+    }
+
+    .premier {
+        margin-bottom: 75px;
+    }
+
+    .premier__img {
+        width: 100%;
+        margin-top: 25px;
+    }
     
 }
 
