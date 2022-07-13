@@ -323,6 +323,12 @@ ul {
     margin: 0 auto;
 }
 
+@media (max-width: 1366px) {
+    .footer__inner {
+        height: 150px;
+    }
+}
+
 @media (max-width: 1020px) {
     .design__interior {
         display: block;
@@ -399,6 +405,19 @@ ul {
     
 }
 
+@media (max-width: 620px) {
+    .footer__inner {
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .footer .list {
+        width: 100%;
+        margin-top: 0;
+        justify-content: center;
+    }
+}
+
 @media (max-width: 520px) {
     .header__top {
         flex-wrap: wrap;
@@ -413,6 +432,11 @@ ul {
 
     .title {
         font-size: 34px;
+    }
+
+    .footer__inner {
+        flex-direction: column;
+        padding-top: 10px;
     }
 }
 
